@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+    <title>MITH chat</title>
+
+		<meta name="description" content="Chillin' with the MITH folks.">
+		<meta name="author" content="Ed Summers">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+        <section>
+          <p>
+          ... worlds of maintenance and repair and the instances of breakdown 
+          that occasion them are not separate or alternative to innovation,
+          but sites for some of its most interesting and consequential
+          operations<br>
+          <br>
+          Rethinking Repair by Steven Jackson
+          </p>
+        </section>
+
+        <section data-background="img/shipbreaking.jpg">
+        <aside class="notes">
+        <ul>
+          <li>Edward Burtynsky</li>
+        </ul>
+        </aside>
+        </section>
+
+        <section>
+        <img src="img/web.png">
+        <aside class="notes">
+        <ul>
+          <li>IA: 366 billion captures</li>
+          <li>IIPC: 75 billion captures</li>
+          <li>Google: 1 trillion unique URLs (2008)</li>
+          <li>Tools help, but people are important.</li>
+          <li>Overly Generous Guesstimate: 37% of the Web</li>
+        </ul>
+        </aside>
+        </section>
+
+        <section data-background="img/pilgrim.jpg">
+        <aside class="notes">
+        <ul>
+          <li>Mark Pilgrim</li>
+        </ul>
+        </aside>
+        </section>
+
+        <section data-background="img/dive.png">
+        </section>
+
+        <section data-background="img/why.jpg">
+        <aside class="notes">
+        <ul>
+          <li>Jonathan Gillette</li>
+        </ul>
+        </aside>
+        </section>
+
+        <section data-background="img/poignant.jpg">
+        </section>
+
+        <section>
+        <aside class="notes">
+        <ul>
+          <li>Gillette: August 19, 2009</li>
+          <li>Pilgrim: October 4, 2011</li>
+        </aside>
+        </section>
+
+        <section>
+        <p>
+        Even if archivists in a particular country were to preserve every record generated throughout the land, they would still have only a sliver of a window into that country’s experience. But of course in practice, this record universum is substantially reduced through deliberate and inadvertent destruction by records creators and managers, leaving a sliver of a sliver from which archivists select what they will preserve.  And they do not preserve much.
+        </p>
+        </section>
+
+        <section>
+        <p>
+        The archival record … is best understood as a sliver of a sliver of a sliver of a window into process. It is a fragile thing, an enchanted thing, defined not by its connections to “reality,” but by its open-ended layerings of construction and reconstruction. Far from constituting the solid structure around which imagination can play, it is itself the stuff of imagination.
+        </p>
+        </section>
+
+        <section data-background="white">
+          <img alt="Facebook" style="border: none;" src="img/facebook.png">
+        </section>
+
+        <section data-background="black">
+          <img alt="Twitter" style="border: none;" src="img/twitter.jpg">
+        </section>
+  
+        <section data-background="black">
+          <img alt="Carl Sagan" style="border: none;" src="img/sagan.jpg">
+        </section>
+
+        <section>
+        <h2>Image Credits</h2>
+        <ul>
+          <li>http://www.w3.org/Talks/General/TransparencyList.html</li>
+          <li>http://www.fotopedia.com/items/flickr-3485479724</li>
+          <li>https://en.wikipedia.org/wiki/Carl_Sagan#mediaviewer/File:Carl_Sagan_-_1980.jpg</li>
+        </ul>
+        </section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
